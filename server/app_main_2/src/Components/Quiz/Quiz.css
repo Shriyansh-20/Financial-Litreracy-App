@@ -1,0 +1,108 @@
+.container {
+  width: 100%; /* Adjusted width for better fit */
+  max-width: 640px;
+  margin: auto;
+  margin: 100px auto ;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 1  0px 5%; /* Changed to percentage for responsiveness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.container h2 {
+  font-size: 24px; /* Reduced font size for better fit */
+  font-weight: 500;
+  text-align: center; /* Centered text */
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 60px; /* Reduced height for better fit */
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 15px; /* Reduced margin for better spacing */
+  font-size: 18px; /* Reduced font size for better fit */
+  cursor: pointer;
+}
+
+.container button {
+  width: 80%; /* Adjusted width for better fit */
+  max-width: 250px;
+  height: 50px; /* Reduced height for better fit */
+  margin: auto;
+  margin-top: 10px; /* Increased margin for better spacing */
+  background: #769fcd;
+  color: #fff;
+  font-size: 20px; /* Reduced font size for better fit */
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 16px; /* Reduced font size for better fit */
+}
+
+.container .correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+.container .wrong {
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
+
+.container .explanation {
+  padding: 15px; /* Reduced padding for better fit */
+  font-size: 16px; /* Reduced font size for better fit */
+  color: #333;
+  background-color: #f8f9fa;
+  border: 2px solid #ced4da;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.container .explanation-label {
+  margin-top: 10px;
+  font-size: 16px; /* Reduced font size for better fit */
+  font-weight: bold;
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+      /* Start slightly above and move down */
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+      /* Move to original position */
+  }
+}
+
+.container .explanation-label {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  /* Adjust the color as needed */
+}
+

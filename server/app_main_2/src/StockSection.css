@@ -1,0 +1,33 @@
+/*Styles for the stock section*/
+
+.vertical-section {
+  width: 300px;
+}
+
+.heading{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.vertical-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.vertical-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.vertical-section table th,
+.vertical-section table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.vertical-section table th {
+  background-color:  #ecf0f4;
+}
