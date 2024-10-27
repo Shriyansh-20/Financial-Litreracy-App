@@ -1,0 +1,125 @@
+/* Landing Page Styles */
+.landing-container {
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+
+  }
+  
+  .landing-title {
+    font-size: 4rem; 
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 8rem; 
+    left: 2.5rem;
+  }
+  
+  .landing-description {
+    font-size: 1rem;
+    font-weight: medium;
+    color: white;
+    position: absolute;
+    top: 24rem; /* Adjust based on your layout */
+    left: 2.6rem;
+    width: 80%; /* Adjust based on your layout */
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 650px; 
+  }
+  
+  /* Features Section Styles */
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-top: 0;
+  }
+  
+  .features-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #769FCD;
+  }
+  
+  .features-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 30px;
+  }
+
+ 
+  
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 25%; 
+    margin-bottom: 1rem;
+    padding: 16px;
+    background-color: #ecf0f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-image {
+    width: 100%;
+    height: auto; 
+    border-radius: 6px;
+  }
+
+  .feature-heading{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-description {
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    margin-top: 0%;
+    
+  }
+  
+  .explore-button {
+    background-color: #5990cb;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .explore-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .landing-title {
+      font-size: 5rem;
+    }
+  
+    .landing-description {
+      width: 40%;
+    }
+  
+    .features-row {
+      justify-content: space-evenly;
+    }
+  
+    .feature-card {
+      width: 20%;
+    }
+  }
+  

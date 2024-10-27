@@ -1,0 +1,137 @@
+/*:root{
+  background-color: #769FCD;
+}
+
+.daily-dose {
+    background-color: #B9D7EA;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .daily-dose h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .daily-dose p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .daily-dose .streak {
+    background-color: #B9D7EA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .daily-dose .streak-count {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .daily-dose .check-in-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .daily-dose .check-in-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    .daily-dose {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .daily-dose .streak {
+      margin-right: 20px;
+    }
+  }
+  button{
+    padding:0.2%
+    
+  }
+  .mark-button{
+    display: relative;
+    position: relative;
+
+  }*/
+
+  .daily-dose {
+    background-color: #D6E6F2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 60px auto 0;
+  }
+  
+  .daily-dose__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .daily-dose__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .daily-dose__description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .check-in-button {
+    background-color: #86acc9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-in-button:hover {
+    background-color: #b9d7ea;
+  }
+  
+  .read-more-button {
+    background-color: #B9D7EA;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: #6e97bb;
+  }
+  
+  .daily-dose__image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }

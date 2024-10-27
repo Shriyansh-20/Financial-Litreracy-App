@@ -1,0 +1,93 @@
+.topic-selection {
+  max-width: 1000px; /* Adjust max-width as needed */
+  margin: 40px auto ; /* Add top margin to create space below the navbar */
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.topic-selection h1 {
+  text-align: center; /* Center align the header */
+}
+
+.topic-selection p {
+  text-align: center; /* Center align the paragraph */
+  font-size:small;
+}
+/* Add animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  animation: fadeIn 0.5s ease-in-out; /* Add animation to grid */
+}
+
+.topic-card {
+  background-color: #ecf0f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px; /* Adjust padding to reduce card size */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  position: relative; /* Ensure relative positioning for absolute children */
+  height: 180px; /* Adjust height as needed */
+  transition: transform 0.3s ease; /* Add transition effect for transform */
+}
+
+.topic-card:hover {
+  transform: translateY(-5px); /* Move the card up by 5px on hover */
+}
+
+.topic-card:hover button {
+  background-color: #0056b3;
+  color: #fff;
+  border-color: #9db6c8;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add transition effect */
+}
+
+.topic-card button {
+  position: absolute; /* Position the button absolutely */
+  bottom: 0.5rem; /* 1rem from the bottom */
+  left: 50%; /* Horizontally center the button */
+  transform: translateX(-50%); /* Adjust to center properly */
+  background-color: #5990cb;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add transition effect */
+}
+
+.topic-card button:hover {
+  background-color: #0056b3;
+  color: #fff;
+  border-color: #9db6c8;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add transition effect */
+}
+
+.topic-card:first-child {
+  grid-column: span 3; /* Spans across three columns */
+  height: 150px;
+
+}
+.topic-card h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.topic-card p {
+  margin-bottom: 10px;
+}

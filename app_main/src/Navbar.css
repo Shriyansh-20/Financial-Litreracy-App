@@ -1,0 +1,37 @@
+/*Styles for the Navbar component*/
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.nav-link:hover{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.nav-btn{
+    background-color: #273b50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.nav-link.selected {
+    color: #273b50;
+    text-decoration: none;
+}
+
+.toolbar{
+    padding: 0;
+    
+}
+
+.appbar{
+    padding: 0;
+    
+}

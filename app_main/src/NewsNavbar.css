@@ -1,0 +1,31 @@
+/* Styles for the NewsNavbar component */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 70px;
+    background-color: #F7FBFC;
+    ;
+  }
+  
+  .navbar button {
+    background-color: #B9D7EA;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #769FCD;
+    color: #fff;
+  }
+
+  .navbar .selected {
+    text-decoration: none;
+    background-color: #769FCD;
+    color: #fff;
+  }
